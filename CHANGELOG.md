@@ -2,6 +2,10 @@
 
 Each entry is one version of this Railway template. Breaking changes come first.
 
+## Unreleased (2026-11-16)
+
+- README: add the Deploy on Railway button for the published template `searxng-3`. No change to the image or the service.
+
 ## 2026.11.15-2d500cb6b (2026-11-16)
 
 - First repo-based release of the SearXNG template (`searxng-3`), replacing the image-only version.

@@ -1,3 +1,5 @@
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/new/template/searxng-3?utm_medium=integration&utm_source=button&utm_campaign=searxng)
+
 # SearXNG on Railway
 
 A Railway template for [SearXNG](https://github.com/searxng/searxng), the privacy-respecting metasearch engine. It runs the official image, pinned by version and digest, with a small start script for Railway.
