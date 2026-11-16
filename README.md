@@ -18,6 +18,7 @@ One service, `SearXNG`, built from this repo's `Dockerfile`:
 |---|---|---|
 | `SEARXNG_SECRET` | `${{secret(64,"abcdef0123456789")}}` | Secret key for SearXNG, generated at deploy time |
 | `SEARXNG_BASE_URL` | `https://${{RAILWAY_PUBLIC_DOMAIN}}/` | Public URL, used in links and the OpenSearch description |
+| `SEARXNG_CONTACT_URL` | `https://${{RAILWAY_PUBLIC_DOMAIN}}/` | Contact address SearXNG sends to Wikipedia, Wikidata and OpenStreetMap, which those engines now require. Replace it with your own contact page or a `mailto:` address |
 | `SEARXNG_LIMITER` | `false` | Bot limiter. It needs a Valkey or Redis server (`SEARXNG_VALKEY_URL`); turn it on for a public instance |
 | `PORT` | `8080` | Port the app listens on and Railway's health check probes |
 
